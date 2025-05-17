@@ -217,3 +217,32 @@ HTML: Отправка формы
 
     <button>Apply</button>
 </form>
+
+
+
+HTML: Шапка
+<header>
+  <img src="https://i.imgur.com/g64f8to.png" alt="Логотип"> <!-- Логотип сайта -->
+  <div id="menu"> <!-- Меню -->
+    <ul>
+      <li><a href="/">Главная</a></li>
+      <li><a href="/about">О нас</a></li>
+      <li><a href="/contacts">Контакты</a></li>
+    </ul>
+  </div>
+</header>
+
+HTML: Меню
+<header>
+  <img src="https://i.imgur.com/g64f8to.png" alt="Code Basics"> <!-- Логотип сайта -->
+  <nav> <!-- Меню -->
+    <ul>
+      <li><a href="/">Главная</a></li>
+      <li><a href="/about">О нас</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+HTML: Уникальный контент страницы
+
