@@ -245,4 +245,143 @@ HTML: Меню
 
 
 HTML: Уникальный контент страницы
+<header>
+  <img src="https://i.imgur.com/g64f8to.png" alt="Code Basics">
+  <nav> <!-- Меню -->
+    <ul>
+      <li><a href="/">Главная</a></li>
+      <li><a href="/about">О нас</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Основной контент страницы. Это может быть статья, описание услуги, данные на странице, контакты, форма заказа услуги -->
+</main>
+main — уникальная секция, которая используется один раз на всю страницу
+
+HTML: Секция
+header>
+    <img src="https://i.imgur.com/g64f8to.png" alt="Code Basics">
+    <nav>
+        <ul>
+            <li><a href="/languages/html">HTML Course</a></li>
+            <li><a href="/languages/css">CSS Course</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Free hands-on programming courses for those starting from scratch</h1>
+    <p>From the creators of Hexlet</p>
+
+    <section>
+        <h2>Languages available for learning</h2>
+        <ul>
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Racket</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Frontend courses</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+</main>
+
+
+для обозначения секции используется тег <article>. Он предназначается для разметки секции, которая может быть использована самостоятельно и не привязана структурно к конкретной странице.
+
+HTML: Самостоятельная секция
+
+<header>
+  <img src="https://i.imgur.com/g64f8to.png" alt="Логотип">
+  <nav>
+    <ul>
+      <li><a href="https://code-basics.com/ru/languages/html/lessons/article">Hello</a></li>
+      <li><a href="https://code-basics.com/ru/languages/html/lessons/article">World</a></li>
+    </ul>
+<main>
+  <section>
+    <h2>Hello World!</h2>
+    <article class="article-block">
+      <h3>Usluga1</h3>
+      <p>Описание новой услуги</p>
+      <a href="https://code-basics.com/ru/languages/html/lessons/article">a</a>
+    </article>
+    <article class="article-block">
+      <h3>Usluga2</h3>
+      <p>Описание новой услуги</p>
+      <a href="https://code-basics.com/ru/languages/html/lessons/article">b</a>
+    </article>
+  </section>
+</main>
+
+
+HTML: Боковая панель
+Для того чтобы корректно разметить такую область, существует тег <aside>, внутри которого и располагается наша боковая панель.
+<header>
+  <img src="https://i.imgur.com/g64f8to.png" alt="Code Basics">
+  <nav>
+    <ul>
+      <li><a href="https://code-basics.com/ru/languages/html/lessons/aside">Code</a></li>
+      <li><a href="https://code-basics.com/ru/languages/html/lessons/aside">code2</a></li>
+    </ul>
+  </nav>
+</header>
+<aside>
+  <nav>
+    <ul>
+      <li><a href="/service-1/">Услуга 1</a></li>
+      <li><a href="/service-2/">Услуга 2</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<main>
+  <section class="title">
+  <h2>Hello world!</h2>
+  <section class="more">
+  <article class="article-block">
+    <h3>Услуга 1</h3>
+    <p>Описание новой услуги</p>
+    <a href="#">Ссылка на услугу</a>
+  </article>
+  <article class="article-block">
+    <h3>Услуга 2</h3>
+    <p>Описание новой услуги</p>
+    <a href="#">Ссылка на услугу</a>
+    </article>
+  </section>
+
+HTML: Семантический WEB
+<main> <!-- Определение основной части страницы -->
+  <article> <!-- Определение статьи -->
+    <header> <!-- Заголовочная информация статьи -->
+      <h1>Название статьи</h1>
+      <img src="https://i.imgur.com/g64f8to.png" height="50" alt="Заголовок статьи">
+    </header>
+
+    <p>Текст нашей статьи</p>
+
+    <footer> <!-- «Подвал статьи» с указанием автора и даты -->
+      <address> <!-- Информация об авторе статьи -->
+        <p>Автор: Pavel</p>
+        <p>Email: gmail</p>
+      </address>
+      <time datetime="2025-05-18">18may</time> <!-- Дата написания статьи -->
+    </footer>
+  </article>
+</main>
+
+
+
+
+
 
